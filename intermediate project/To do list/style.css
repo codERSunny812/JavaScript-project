@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: cadetblue;
+}
+
+.container{
+    background-color: darkolivegreen;
+    min-height: 100vh;
+    width: 70%;
+    margin: auto;
+    padding:30px;
+    box-sizing: border-box;
+
+}
+
+.container h1{
+    text-align: center;
+    color: white;
+    text-shadow: rgba(121, 194, 25, 0.6);
+    font-family: cursive;
+    font-weight: bold;
+    font-style: italic;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid red; */
+
+}
+
+
+input{
+    text-align: center;
+    text-transform: capitalize;
+    padding: 6px;
+    outline: none;
+    border-radius: 4px;
+    border: none;
+    margin: 4px 5px ;
+}
+
+textarea{
+    text-align: center;
+    text-transform: capitalize;
+    padding: 8px;
+    margin: 4px 5px;
+}
+ #submit{
+    border: none;
+    text-transform: capitalize;
+    padding: 9px;
+    margin: 5px;
+    border-radius: 5px;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+#submit:hover{
+    background-color: white;
+    color: black;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-family:monospace;
+    font-size: 18px;
+}
+
+.task{
+    background-color: rgb(247,247,247);
+    font-size:1 rem;
+    font-weight: 100;
+    font-family: monospace;
+    padding: 30px;
+    display: flex;
+    color: black;
+    border: 2px solid blue;
+    margin: 9px;
+    align-items: center;
+}
+
+.task > div{
+    width: 100%;
+}
+
+.task span{
+    color: rgba(0, 0, 0, 0.6);
+}
+
+#deletionBtn{
+    border-radius: 100%;
+    height: 30px;
+    width: 30px;
+    border: none;
+    font-size: 1.6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: crimson;
+    color: white;
+}
