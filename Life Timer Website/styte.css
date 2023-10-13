@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+background-image: url('./images/kelly-sikkema-tk9RQCq5eQo-unsplash.jpg');
+height: 100vh;
+width: 100%;
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+}
+
+.text{
+    display: grid;
+    place-items: center;
+    color: white;
+    height: 100vh;
+}
+
+.text > h1{
+    font-size: 3rem;
+}
